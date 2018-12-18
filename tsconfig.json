@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["es6", "dom"],
+    "moduleResolution": "node",
+    "removeComments": true,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "pretty": true,
+    "outDir": "src/ts/src/JavaRushCase"
+  },
+  "files": [
+    "./src/ts/ts/JavaRushCase/*.ts"
+  ],
+  "exclude": [
+    "*dist*",
+    "node_modules"
+  ]
+}
