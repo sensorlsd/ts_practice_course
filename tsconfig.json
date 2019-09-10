@@ -1,20 +1,31 @@
 {
+  "compileOnSave": false,
+  "buildOnSave": false,
   "compilerOptions": {
-    "target": "es6",
-    "module": "commonjs",
-    "lib": ["es6", "dom"],
+    "target": "es2015",
+    "module": "es2015",
     "moduleResolution": "node",
-    "removeComments": true,
-    "noImplicitAny": false,
     "sourceMap": true,
-    "pretty": true,
-    "outDir": "src/ts/src/JavaRushCase"
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "removeComments": false,
+    "experimentalDecorators": true,
+    "noEmitHelpers": true,
+    "importHelpers": true,
+    "noImplicitAny": false,
+    "outDir": "./dist"
   },
-  "files": [
-    "./src/ts/ts/JavaRushCase/*.ts"
+  "include": [
+    "./src/**/*.ts"
   ],
   "exclude": [
-    "*dist*",
-    "node_modules"
-  ]
+    "node_modules",
+    "./dir"
+  ],
+  "awesomeTypescriptLoaderOptions": {
+    "usePrecompiledFiles": false
+  }
+
 }
