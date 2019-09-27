@@ -18,11 +18,11 @@
     "outDir": "./dist"
   },
   "include": [
-    "./src/**/*.ts"
+    "./src/**/*"
   ],
   "exclude": [
     "node_modules",
-    "./dir"
+    "./dist"
   ],
   "awesomeTypescriptLoaderOptions": {
     "usePrecompiledFiles": false
